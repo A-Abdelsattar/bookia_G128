@@ -11,7 +11,9 @@ class Bookia extends StatelessWidget {
     return MaterialApp(
       home:WelcomeScreen() ,
       theme: ThemeData(
-       fontFamily: "DMSerifDisplay"
+        scaffoldBackgroundColor:     Colors.white,
+
+     fontFamily: "DMSerifDisplay"
       ),
     );
   }
