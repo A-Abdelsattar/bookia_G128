@@ -10,6 +10,9 @@ class Bookia extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home:WelcomeScreen() ,
+      theme: ThemeData(
+       fontFamily: "DMSerifDisplay"
+      ),
     );
   }
 }
